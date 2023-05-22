@@ -6,13 +6,13 @@ import Backend from "./Backend";
 const Skills = () => {
   return (
     <section className="skills section" id="skills">
-      <h2 className="section__title">Skills</h2>
-      <span className="section_subtitle"> My Technical Level</span>
-
       <div className="skills__container container grid">
-        <Frontend />
-
-        <Backend />
+        <div className="md-px-20 ">
+          <Frontend />
+        </div>
+        <div className="md-px-20">
+          <Backend />
+        </div>
       </div>
     </section>
   );

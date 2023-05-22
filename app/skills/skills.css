@@ -2,9 +2,52 @@
   grid-template-columns: repeat(2, 350px);
   column-gap: 3rem;
   justify-content: center;
+  margin-bottom: 15px;
 }
 
-.skills__container{
-    background-color: teal;
-    
+.skills__content {
+  background-color: whitesmoke;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2rem 4rem;
+  border-radius: 1.25 rem;
+}
+
+.skills__title {
+  font-size: large;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.skills__box {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.skills__group {
+  border: 2px solid red;
+  display: grid;
+  align-items: flex-start;
+  row-gap: 1rem;
+}
+
+.skills__data {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.skills .bx-badge_check {
+  font-size: 1rem;
+  color: red;
+}
+
+.skills__name {
+  font-size: medium;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.skills__level {
+  font-size: small;
 }
