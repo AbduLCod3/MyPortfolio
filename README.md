@@ -8,7 +8,7 @@ This repository contains a portfolio website showcasing my skills and projects t
 
 ## Features
 
-### Skills: View a comprehensive list of my technical skills and competencies in different areas of software development.
+#### Skills: View a comprehensive list of my technical skills and competencies in different areas of software development.
 
 ### Projects: Explore the various projects I have completed, with detailed descriptions, screenshots, and links to live demos or repositories.
 
@@ -16,32 +16,32 @@ This repository contains a portfolio website showcasing my skills and projects t
 
 ## Technologies Used
 
-### HTML5
+#### HTML5
 
-### CSS3
+#### CSS3
 
-### Tailwind CSS
+#### Tailwind CSS
 
-### JavaScript
+#### JavaScript
 
-### Next JS
+#### Next JS
 
 # Getting Started
 
-## To run the portfolio website locally, follow these steps:
+### To run the portfolio website locally, follow these steps:
 
-### Clone the repository: git clone https://github.com/your-username/portfolio.git
+#### Clone the repository: git clone https://github.com/your-username/portfolio.git
 
-### Navigate to the project directory: cd my_portfolio
+#### Navigate to the project directory: cd my_portfolio
 
-### run 'npm run dev' on your CLI
+#### run 'npm run dev' on your CLI
 
-### Explore the website to learn more about my skills and projects.
+#### Explore the website to learn more about my skills and projects.
 
-###Feel free to customize and modify the website to showcase your own skills and projects. You can update the content, design, and add new sections as needed.
+##### Feel free to customize and modify the website to showcase your own skills and projects. You can update the content, design, and add new sections as needed.
 
 ## Contributing
 
 Contributions to this portfolio website are not open at the moment, as it is a personal showcase. However, if you have any suggestions or feedback, please feel free to reach out to me through the contact information provided on the website.
 
-## Thank you for visiting my portfolio repository. I hope you find the website informative and engaging. If you have any questions or inquiries, please don't hesitate to get in touch.
+### Thank you for visiting my portfolio repository. I hope you find the website informative and engaging. If you have any questions or inquiries, please don't hesitate to get in touch.
