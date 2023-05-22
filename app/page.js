@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { AiFillLinkedin, AiFillGithub, aiFillFilePdf } from "react-icons/ai"; 
+import { AiFillLinkedin, AiFillGithub, aiFillFilePdf } from "react-icons/ai";
 import Skills from "./skills/Skills";
 import Portfolio from "./portfolio/Portfolio";
 
@@ -56,7 +56,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r  from-fuchsia-500 to-yellow-600 text-white px-4 py-2 rounded-md  ml-8"
-                  href="https://www.linkedin.com/in/abdul-ar/"
+                  href="https://docs.google.com/document/d/1Qk9PjcXqc0MnOiGHwvgk9x8V4R8xTNbxk05z4-ck_78/edit?usp=sharing"
                   target="_blank"
                 >
                   Resume

@@ -1,12 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { AiFillGithub } from "react-icons/ai";
 
-// import placeholderImage from "../../public/placeholderImage";
-import candyCrushProject from "../../public/candyCrushProject.PNG";
-import Pro2_2 from "../../public/Pro2_2.PNG";
-import Pro2_3 from "../../public/Pro2_3.PNG";
-import pokemons from "../../public/pokemons.PNG";
 
 export default function Portfolio() {
   return (
@@ -17,7 +11,7 @@ export default function Portfolio() {
         {/*  */}
         <div>
           <Image
-            src={candyCrushProject}
+            src="/../public/pro.png"
             width={500}
             height={500}
             className="w-full h-48 object-cover"
@@ -39,7 +33,7 @@ export default function Portfolio() {
 
         <div>
           <Image
-            src={Pro2_3}
+            src="/../public/pro2.png"
             width={500}
             height={500}
             className="w-full h-48 object-cover"
@@ -60,7 +54,7 @@ export default function Portfolio() {
 
         <div>
           <Image
-            src={pokemons}
+            src="/../public/pro3.png"
             width={500}
             height={500}
             className="w-full h-48 object-cover"
