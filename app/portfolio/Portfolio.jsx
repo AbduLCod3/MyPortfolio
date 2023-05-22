@@ -3,9 +3,10 @@ import Image from "next/image";
 import { AiFillGithub } from "react-icons/ai";
 
 // import placeholderImage from "../../public/placeholderImage";
-import Pro2_1 from "../../public/Pro2_1.PNG";
+import candyCrushProject from "../../public/candyCrushProject.PNG";
 import Pro2_2 from "../../public/Pro2_2.PNG";
 import Pro2_3 from "../../public/Pro2_3.PNG";
+import pokemons from "../../public/pokemons.PNG";
 
 export default function Portfolio() {
   return (
@@ -15,13 +16,40 @@ export default function Portfolio() {
       <div className="mt-10 flex justify-center gap-16 py-3">
         {/*  */}
         <div>
-          <Image src={Pro2_2} width={500} height={500} />
+          <Image
+            src={candyCrushProject}
+            width={500}
+            height={500}
+            className="w-full h-48 object-cover"
+          />
+
+          <br></br>
+          <a
+            href="https://github.com/DevAbdul-codeHub/candyCrushProject"
+            class="text-fuchsia-500 hover:text-yellow-600 font-bold"
+          >
+            Candy Crush Game | GitHub Repo
+          </a>
+
+          <p className="flex-wrap">
+            The motivation behind this project was to practice JavaScript
+            fundamentals and gain hands-on experience with the DOM API.
+          </p>
+        </div>
+
+        <div>
+          <Image
+            src={Pro2_3}
+            width={500}
+            height={500}
+            className="w-full h-48 object-cover"
+          />
           <br></br>
           <a
             href="https://github.com"
             class="text-fuchsia-500 hover:text-yellow-600 font-bold"
           >
-            GitHub Repo
+            Real estate Platform | GitHub Repo
           </a>
 
           <p className="flex-wrap">
@@ -31,34 +59,24 @@ export default function Portfolio() {
         </div>
 
         <div>
-          <Image src={Pro2_2} width={500} height={500} />
+          <Image
+            src={pokemons}
+            width={500}
+            height={500}
+            className="w-full h-48 object-cover"
+          />
           <br></br>
           <a
-            href="https://github.com"
+            href="https://github.com/DevAbdul-codeHub/pokemonApp"
             class="text-fuchsia-500 hover:text-yellow-600 font-bold"
           >
-            GitHub Repo
+            Pokemon App | GitHub Repo
           </a>
 
           <p className="flex-wrap">
-            The BrokerConnect is an online platform designed exclusively for
-            real estate agents to list rental properties.
-          </p>
-        </div>
-
-        <div>
-          <Image src={Pro2_2} width={500} height={500} />
-          <br></br>
-          <a
-            href="https://github.com"
-            class="text-fuchsia-500 hover:text-yellow-600 font-bold"
-          >
-            GitHub Repo
-          </a>
-
-          <p className="flex-wrap">
-            The BrokerConnect is an online platform designed exclusively for
-            real estate agents to list rental properties.
+            A Pokemon app that utilizes server-side rendering. The views of the
+            application are generated and rendered on the server-side, and then
+            sent to the client.
           </p>
         </div>
         {/*  */}
